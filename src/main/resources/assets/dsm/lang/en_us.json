@@ -1,0 +1,7 @@
+{
+  "dsm.command.state":        "[DSM] state: %s (level %s) | biome: %s | track: %s | fade: %s",
+  "dsm.command.state.threat": "[DSM] threat: %s | pvp: %s | boss: %s | jumpscare cooldown: %ss",
+  "dsm.command.reload.ok":    "[DSM] track map reloaded: %s biome list(s), %s state list(s)",
+  "dsm.command.reload.fail":  "[DSM] track map failed to load, check logs: %s",
+  "dsm.command.not_tracking": "[DSM] not inside a world, the engine is silent"
+}

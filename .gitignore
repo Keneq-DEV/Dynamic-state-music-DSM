@@ -1,0 +1,29 @@
+# Gradle
+.gradle/
+build/
+
+# Runtime output of `gradlew runClient`
+run/
+logs/
+crash-reports/
+
+# IDEs (this project targets VS Code; IntelliJ/Eclipse leftovers ignored on purpose)
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+bin/
+eclipse/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+.vscode/
+
+ROADMAP.md
+DSM_mod.zip
+especificaciones.md
+que es.md
+.git

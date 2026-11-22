@@ -1,0 +1,7 @@
+{
+  "dsm.command.state":        "[DSM] estado: %s (nivel %s) | bioma: %s | pista: %s | volumen: %s",
+  "dsm.command.state.threat": "[DSM] amenaza: %s | pvp: %s | jefe: %s | enfriamiento de jumpscare: %ss",
+  "dsm.command.reload.ok":    "[DSM] mapa de pistas recargado: %s lista(s) de biomas, %s lista(s) de estados",
+  "dsm.command.reload.fail":  "[DSM] fallo al cargar el mapa de pistas, revisa los logs: %s",
+  "dsm.command.not_tracking": "[DSM] no estás dentro de un mundo, el motor está en silencio"
+}

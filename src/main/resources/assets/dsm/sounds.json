@@ -1,0 +1,272 @@
+{
+  "calm_generic": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "dsm:music/fallback/calm",
+        "stream": true
+      }
+    ]
+  },
+  "menu_pause": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "dsm:music/menu/pause",
+        "stream": true
+      }
+    ]
+  },
+  "menu_inventory": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "dsm:music/menu/inventory",
+        "stream": true
+      }
+    ]
+  },
+  "plains": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "dsm:music/biome/plains",
+        "stream": true
+      }
+    ]
+  },
+  "plains_1": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "dsm:music/biome/plains_1",
+        "stream": true
+      }
+    ]
+  },
+  "forest": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "dsm:music/biome/forest",
+        "stream": true
+      }
+    ]
+  },
+  "desert": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "dsm:music/biome/desert",
+        "stream": true
+      }
+    ]
+  },
+  "mountains": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "dsm:music/biome/mountains",
+        "stream": true
+      }
+    ]
+  },
+  "ocean": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "dsm:music/biome/ocean",
+        "stream": true
+      }
+    ]
+  },
+  "cave": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "dsm:music/biome/cave",
+        "stream": true
+      }
+    ]
+  },
+  "nether": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "dsm:music/biome/nether",
+        "stream": true
+      }
+    ]
+  },
+  "end": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "dsm:music/biome/end",
+        "stream": true
+      }
+    ]
+  },
+  "danger_0": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "dsm:music/combat/danger_0",
+        "stream": true
+      }
+    ]
+  },
+  "danger_1": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "dsm:music/combat/danger_0",
+        "stream": true
+      }
+    ]
+  },
+  "group_danger": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "dsm:music/combat/group_danger",
+        "stream": true
+      }
+    ]
+  },
+  "escape": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "dsm:music/combat/run_danger_1",
+        "stream": true
+      }
+    ]
+  },
+  "search": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "dsm:music/combat/search_0",
+        "stream": true
+      }
+    ]
+  },
+  "hide": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "dsm:music/combat/hide_1",
+        "stream": true
+      }
+    ]
+  },
+  "hide_0": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "dsm:music/combat/hide_0",
+        "stream": true
+      }
+    ]
+  },
+  "pvp_danger": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "dsm:music/combat/pvp_danger",
+        "stream": true
+      }
+    ]
+  },
+  "pvp_group_danger": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "dsm:music/combat/pvp_group_danger",
+        "stream": true
+      }
+    ]
+  },
+  "pvp_escape": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "dsm:music/combat/pvp_escape",
+        "stream": true
+      }
+    ]
+  },
+  "pvp_search": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "dsm:music/combat/pvp_search",
+        "stream": true
+      }
+    ]
+  },
+  "pvp_hide": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "dsm:music/combat/pvp_hide",
+        "stream": true
+      }
+    ]
+  },
+  "low_health": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "dsm:music/combat/low_health",
+        "stream": true
+      }
+    ]
+  },
+  "near_death": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "dsm:music/combat/near_death_0",
+        "stream": true
+      }
+    ]
+  },
+  "healing": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "dsm:music/player/healing",
+        "stream": true
+      }
+    ]
+  },
+  "death": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "dsm:music/player/death",
+        "stream": true
+      }
+    ]
+  },
+  "boss": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "dsm:music/boss/default",
+        "stream": true
+      }
+    ]
+  },
+  "jumpscare": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "dsm:music/combat/jumpscare",
+        "stream": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,145 @@
+# Dynamic State Music - default track map
+#
+# This file is copied to config/dsm/tracks.toml on first launch.
+# Edit the copy in config/dsm/tracks.toml - this one is only the template.
+#
+# Wildcards:
+#   "dsm:danger_*" automatically includes dsm:danger_0, dsm:danger_1, ..., dsm:danger_X
+#   found in sounds.json or assets/dsm/sounds/music/**/*.ogg (no limit).
+#
+# If a peaceful biome has no [biome...] section, DSM stays idle and lets
+# normal Minecraft music play.
+
+# ---------- biomes ----------
+
+[biome.minecraft.plains]
+tracks = ["dsm:plains", "dsm:plains_*"]
+mode = "sequence"
+gap_seconds = 5
+
+[biome.minecraft.forest]
+tracks = ["dsm:forest", "dsm:forest_*"]
+mode = "shuffle"
+gap_seconds = 5
+
+[biome.minecraft.desert]
+tracks = ["dsm:desert", "dsm:desert_*"]
+mode = "shuffle"
+gap_seconds = 5
+
+[biome.minecraft.jagged_peaks]
+tracks = ["dsm:mountains", "dsm:mountains_*"]
+mode = "shuffle"
+gap_seconds = 5
+
+[biome.minecraft.ocean]
+tracks = ["dsm:ocean", "dsm:ocean_*"]
+mode = "shuffle"
+gap_seconds = 5
+
+[biome.minecraft.dripstone_caves]
+tracks = ["dsm:cave", "dsm:cave_*"]
+mode = "shuffle"
+gap_seconds = 8
+
+# ---------- menus ----------
+
+[states.menu_pause]
+tracks = ["dsm:menu_pause", "dsm:menu_pause_*"]
+mode = "shuffle"
+gap_seconds = 0
+
+[states.menu_inventory]
+tracks = ["dsm:menu_inventory", "dsm:menu_inventory_*"]
+mode = "shuffle"
+gap_seconds = 0
+
+# ---------- combat (threat session) ----------
+
+# Flat danger pool by default (useThreatLevels = false in dsm-client.toml).
+# Automatically rotates through all danger_0..danger_X files without restarting on extra enemies.
+[states.danger]
+tracks = ["dsm:danger_*", "dsm:danger"]
+mode = "shuffle"
+gap_seconds = 0
+
+[states.group_danger]
+tracks = ["dsm:group_danger", "dsm:group_danger_*"]
+mode = "shuffle"
+gap_seconds = 0
+
+[states.escape]
+tracks = ["dsm:escape", "dsm:escape_*", "dsm:run_danger_*"]
+mode = "shuffle"
+gap_seconds = 0
+
+[states.search]
+tracks = ["dsm:search", "dsm:search_*"]
+mode = "shuffle"
+gap_seconds = 0
+
+[states.hide]
+tracks = ["dsm:hide_*", "dsm:hide"]
+mode = "shuffle"
+gap_seconds = 0
+
+# ---------- pvp ----------
+
+[states.pvp_danger]
+tracks = ["dsm:pvp_danger", "dsm:pvp_danger_*"]
+mode = "shuffle"
+gap_seconds = 0
+
+[states.pvp_group_danger]
+tracks = ["dsm:pvp_group_danger", "dsm:pvp_group_danger_*"]
+mode = "shuffle"
+gap_seconds = 0
+
+[states.pvp_escape]
+tracks = ["dsm:pvp_escape", "dsm:pvp_escape_*"]
+mode = "shuffle"
+gap_seconds = 0
+
+[states.pvp_search]
+tracks = ["dsm:pvp_search", "dsm:pvp_search_*"]
+mode = "shuffle"
+gap_seconds = 0
+
+[states.pvp_hide]
+tracks = ["dsm:pvp_hide_*", "dsm:pvp_hide"]
+mode = "shuffle"
+gap_seconds = 0
+
+# ---------- player states ----------
+
+[states.low_health]
+tracks = ["dsm:low_health", "dsm:low_health_*"]
+mode = "shuffle"
+gap_seconds = 0
+
+[states.near_death]
+tracks = ["dsm:near_death_0", "dsm:near_death_*"]
+mode = "shuffle"
+gap_seconds = 0
+
+[states.healing]
+tracks = ["dsm:healing", "dsm:healing_*"]
+mode = "shuffle"
+gap_seconds = 0
+
+[states.death]
+tracks = ["dsm:death", "dsm:death_*"]
+mode = "shuffle"
+gap_seconds = 0
+
+# ---------- boss / jumpscare ----------
+
+[states.boss]
+tracks = ["dsm:boss", "dsm:boss_*"]
+mode = "shuffle"
+gap_seconds = 0
+
+[states.jumpscare]
+tracks = ["dsm:jumpscare", "dsm:jumpscare_*"]
+mode = "shuffle"
+gap_seconds = 0
